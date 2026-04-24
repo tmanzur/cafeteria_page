@@ -1,0 +1,67 @@
+/*Estilos Generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #F3EFE8;
+    font-family: Libre Baskerville, serif;
+}
+
+/*Estilos Navbar*/
+
+.navbar-luna {
+    --bs-navbar-color: #F3EFE8;
+    /* blanco para los links */
+    --bs-navbar-hover-color: #C2A567;
+    /* marrón al pasar el mouse */
+    --bs-navbar-active-color: #C2A567;
+    /* marrón para el link activo */
+    --bs-navbar-brand-color: #F5E6D3;
+    /* Color del logo */
+    --bs-navbar-brand-font-size: 1.8rem;
+    /* Logo más grande */
+    --bs-navbar-padding-y: 1.5rem;
+    /* Navbar más alto */
+
+    /* También puedes cambiar el fondo si quieres */
+    background-color: #3B2A26;
+}
+
+.navbar-luna .navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(30%) saturate(515%) hue-rotate(3deg) brightness(97%) contrast(88%);
+}
+
+/*Estilos Menú*/
+
+h2 {
+    color: #3B2A26;
+    font-style: italic;
+}
+
+.img-iguales {
+    height: 200px;
+    /* Ajusta la altura*/
+    object-fit: cover;
+    /* recorta la imagen para que no se estire */
+    object-position: center;
+    /* Centra el recorte para no cortar lo importante */
+}
+
+.card-body-color {
+    background-color: #3B2A26;
+    color: #F3EFE8;
+}
+
+.nosotros {
+    color: #3B2A26;
+    font-style: italic;
+}
+
+.bg-footer {
+    background-color: #3B2A26;
+    color: #F3EFE8;
+}
+
+.bg-menu {
+    background-color: #C2A567;
+}
