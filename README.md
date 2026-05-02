@@ -4,3 +4,6 @@
 ---
 - Se diseña landing para ejercitar el trabajo con Bootstrap
 - Se modifican clases de Bootstrap para aprender a manejar colores propios
+
+
+-Se centra texto "Algunas de nuestras preparaciones"
